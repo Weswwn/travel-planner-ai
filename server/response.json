@@ -1,0 +1,94 @@
+{
+  "route": [
+    {
+      "placeName": "750 Kearny St, San Francisco, CA 94108 (Starting Location)",
+      "estimatedTravelTimeFromPrevious": "0 minutes",
+      "estimatedArrivalTime": "7:30 AM",
+      "estimatedTimeAtLocation": "0 minutes",
+      "estimatedDepartureTime": "7:30 AM"
+    },
+    {
+      "placeName": "3282 Mission St, San Francisco, CA 94110 - Four Chairs (Breakfast)",
+      "estimatedTravelTimeFromPrevious": "40 minutes",
+      "estimatedArrivalTime": "8:10 AM",
+      "estimatedTimeAtLocation": "1 hour",
+      "estimatedDepartureTime": "9:10 AM"
+    },
+    {
+      "placeName": "3355 16th St, San Francisco, CA 94103 - Mission Dolores Park",
+      "estimatedTravelTimeFromPrevious": "10 minutes",
+      "estimatedArrivalTime": "9:20 AM",
+      "estimatedTimeAtLocation": "45 minutes",
+      "estimatedDepartureTime": "10:05 AM"
+    },
+    {
+      "placeName": "San Francisco Museum of Modern Art (SFMOMA)",
+      "estimatedTravelTimeFromPrevious": "20 minutes",
+      "estimatedArrivalTime": "10:25 AM",
+      "estimatedTimeAtLocation": "2 hours 30 minutes",
+      "estimatedDepartureTime": "12:55 PM"
+    },
+    {
+      "placeName": "1555 Folsom St, San Francisco, CA 94103 - Spark Social (Lunch)",
+      "estimatedTravelTimeFromPrevious": "10 minutes",
+      "estimatedArrivalTime": "1:05 PM",
+      "estimatedTimeAtLocation": "1 hour 15 minutes",
+      "estimatedDepartureTime": "2:20 PM"
+    },
+    {
+      "placeName": "Alcatraz Island (Ferry from Pier 33)",
+      "estimatedTravelTimeFromPrevious": "20 minutes",
+      "estimatedArrivalTime": "2:40 PM",
+      "estimatedTimeAtLocation": "3 hours (including ferry travel and tour)",
+      "estimatedDepartureTime": "5:40 PM"
+    },
+    {
+      "placeName": "Fisherman's Wharf (near Pier 39/Ghirardelli Square)",
+      "estimatedTravelTimeFromPrevious": "10 minutes",
+      "estimatedArrivalTime": "5:50 PM",
+      "estimatedTimeAtLocation": "45 minutes",
+      "estimatedDepartureTime": "6:35 PM"
+    },
+    {
+      "placeName": "Golden Gate Bridge (Viewpoint at Crissy Field/Fort Point)",
+      "estimatedTravelTimeFromPrevious": "20 minutes",
+      "estimatedArrivalTime": "6:55 PM",
+      "estimatedTimeAtLocation": "45 minutes",
+      "estimatedDepartureTime": "7:40 PM"
+    },
+    {
+      "placeName": "1906 Van Ness Ave, San Francisco, CA 94109 - House of Prime Rib (Dinner)",
+      "estimatedTravelTimeFromPrevious": "20 minutes",
+      "estimatedArrivalTime": "8:00 PM",
+      "estimatedTimeAtLocation": "1 hour 45 minutes",
+      "estimatedDepartureTime": "9:45 PM"
+    },
+    {
+      "placeName": "1720 Polk St, San Francisco, CA 94133 - Bob's Donuts",
+      "estimatedTravelTimeFromPrevious": "5 minutes",
+      "estimatedArrivalTime": "9:50 PM",
+      "estimatedTimeAtLocation": "30 minutes",
+      "estimatedDepartureTime": "10:20 PM"
+    },
+    {
+      "placeName": "1900 Fillmore St, San Francisco, CA 94115 - The Alchemist",
+      "estimatedTravelTimeFromPrevious": "10 minutes",
+      "estimatedArrivalTime": "10:30 PM",
+      "estimatedTimeAtLocation": "1 hour 30 minutes",
+      "estimatedDepartureTime": "12:00 AM"
+    }
+  ],
+  "relevantInformation": [
+    "Alcatraz Island tickets must be booked well in advance, and specific ferry times should be confirmed. The estimated arrival at Pier 33 assumes you have a ferry booking around 3:00 PM - 3:30 PM.",
+    "House of Prime Rib is a popular restaurant; reservations are highly recommended, especially for dinner.",
+    "The day is very packed, starting early and ending late. It involves significant travel between locations; ride-sharing or public transport is recommended to stay on schedule.",
+    "Your starting location (750 Kearny St) is in the heart of Chinatown. You can explore the neighborhood informally around your hotel. The secondary activity address provided for \"Chinatown\" (2180 Chestnut St) is actually in the Marina District and has been omitted to maintain an efficient route.",
+    "All primary activities and two out of three secondary activities (Mission Dolores Park and Fisherman's Wharf) are included in this itinerary."
+  ],
+  "metadata": {
+    "estimatedTotalTime": "16 hours 30 minutes",
+    "estimatedTotalDistance": "~20 miles",
+    "estimatedTravelTimeBetweenPlaces": "2 hours 45 minutes",
+    "estimatedTravelBackToStartingLocation": "20 minutes"
+  }
+}

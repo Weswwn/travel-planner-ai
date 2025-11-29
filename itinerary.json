@@ -1,0 +1,106 @@
+{
+  "bestRoute": [
+    {
+      "placeName": "Four chairs",
+      "type": "Breakfast",
+      "estimatedTravelTimeFromPrevious": "5 min (walk)",
+      "estimatedArrivalTime": "8:05 AM",
+      "estimatedTimeAtLocation": "45 min",
+      "estimatedDepartureTime": "8:50 AM"
+    },
+    {
+      "placeName": "Chinatown",
+      "type": "Secondary Activity",
+      "estimatedTravelTimeFromPrevious": "0 min (walk)",
+      "estimatedArrivalTime": "8:50 AM",
+      "estimatedTimeAtLocation": "30 min",
+      "estimatedDepartureTime": "9:20 AM"
+    },
+    {
+      "placeName": "San Francisco Museum of Modern Art (SFMOMA)",
+      "type": "Primary Activity",
+      "estimatedTravelTimeFromPrevious": "10 min (drive)",
+      "estimatedArrivalTime": "9:30 AM (arrive early, museum opens at 10:00 AM)",
+      "estimatedTimeAtLocation": "1 hr 30 min",
+      "estimatedDepartureTime": "11:30 AM"
+    },
+    {
+      "placeName": "Golden Gate Bridge (Vista Point)",
+      "type": "Primary Activity",
+      "estimatedTravelTimeFromPrevious": "25 min (drive)",
+      "estimatedArrivalTime": "11:55 AM",
+      "estimatedTimeAtLocation": "1 hr",
+      "estimatedDepartureTime": "12:55 PM"
+    },
+    {
+      "placeName": "Alcatraz Island (Ferry from Pier 33)",
+      "type": "Primary Activity",
+      "estimatedTravelTimeFromPrevious": "20 min (drive to Pier 33)",
+      "estimatedArrivalTime": "1:15 PM (for 1:30 PM ferry departure)",
+      "estimatedTimeAtLocation": "3 hr 30 min",
+      "estimatedDepartureTime": "4:45 PM"
+    },
+    {
+      "placeName": "Fisherman's Wharf",
+      "type": "Secondary Activity",
+      "estimatedTravelTimeFromPrevious": "10 min (walk from Pier 33)",
+      "estimatedArrivalTime": "4:55 PM",
+      "estimatedTimeAtLocation": "45 min",
+      "estimatedDepartureTime": "5:40 PM"
+    },
+    {
+      "placeName": "Spark Social",
+      "type": "Lunch",
+      "estimatedTravelTimeFromPrevious": "25 min (drive)",
+      "estimatedArrivalTime": "6:05 PM",
+      "estimatedTimeAtLocation": "1 hr",
+      "estimatedDepartureTime": "7:05 PM"
+    },
+    {
+      "placeName": "Mission Dolores Park",
+      "type": "Secondary Activity",
+      "estimatedTravelTimeFromPrevious": "10 min (drive)",
+      "estimatedArrivalTime": "7:15 PM",
+      "estimatedTimeAtLocation": "30 min",
+      "estimatedDepartureTime": "7:45 PM"
+    },
+    {
+      "placeName": "House of Prime Rib",
+      "type": "Dinner",
+      "estimatedTravelTimeFromPrevious": "15 min (drive)",
+      "estimatedArrivalTime": "8:00 PM",
+      "estimatedTimeAtLocation": "1 hr 30 min",
+      "estimatedDepartureTime": "9:30 PM"
+    },
+    {
+      "placeName": "bob donuts",
+      "type": "Late Night Activity",
+      "estimatedTravelTimeFromPrevious": "5 min (walk)",
+      "estimatedArrivalTime": "9:35 PM",
+      "estimatedTimeAtLocation": "30 min",
+      "estimatedDepartureTime": "10:05 PM"
+    },
+    {
+      "placeName": "The Alchemist",
+      "type": "Late Night Activity",
+      "estimatedTravelTimeFromPrevious": "15 min (drive)",
+      "estimatedArrivalTime": "10:20 PM",
+      "estimatedTimeAtLocation": "1 hr 30 min",
+      "estimatedDepartureTime": "11:50 PM"
+    }
+  ],
+  "estimatedTotalTime": "16 hours 5 minutes",
+  "estimatedTotalDistance": "25.7 miles",
+  "estimatedTravelTimeBetweenPlaces": "2 hours 20 minutes",
+  "estimatedTravelBackToStartingLocation": "15 min (from The Alchemist to 750 Kearny St)",
+  "relevantInformation": [
+    "This is an extremely packed and ambitious itinerary starting at 8:00 AM and concluding past midnight. Be prepared for a very long day with a lot of movement.",
+    "**Alcatraz Island:** Tickets *must* be booked well in advance (often months ahead), and for a specific ferry departure time. We've estimated a 1:30 PM departure for this itinerary, but you'll need to confirm availability and book accordingly.",
+    "**San Francisco Museum of Modern Art (SFMOMA):** On December 1, 2025 (a Monday), SFMOMA is typically open from 10:00 AM to 5:00 PM. This itinerary has you arriving for opening. Please double-check their specific holiday hours or any special closures for that date.",
+    "**House of Prime Rib:** Reservations are highly recommended, especially for dinner. Book well in advance to secure your desired time.",
+    "**Spark Social:** This is a food truck park, so while it will be a very late lunch (6:05 PM arrival), many trucks operate into the evening. Check specific truck hours closer to your date.",
+    "**Mission Dolores Park:** Your visit to Mission Dolores Park will be after sunset (around 7:15 PM in December), so the scenic views might be limited. It's included for convenience on the route.",
+    "**Transportation:** This itinerary assumes you will be primarily using rideshares (Uber/Lyft) or a personal car for efficiency between locations. Walking is suitable for some short segments, especially within Chinatown and Fisherman's Wharf.",
+    "**Flexibility:** This plan is very tight. Consider which activities are your highest priority in case you need to cut something short or skip an activity to avoid feeling rushed."
+  ]
+}
