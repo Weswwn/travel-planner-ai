@@ -2,6 +2,9 @@
 import express from "express";
 import dotenv from "dotenv";
 dotenv.config({ path: `.env.${process.env.NODE_ENV}` });
+import fs from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
 import morgan from "morgan";
 import { getAI } from "./gemini";
 import cors from "cors";
@@ -9,6 +12,16 @@ import { Type } from "@google/genai";
 
 const app = express();
 const port = process.env.PORT || 3001;
+
+// Set MOCK_ITINERARY=true to skip the real Gemini + OpenRouteService calls
+// (both are rate-limited on the free tier) and replay a captured response
+// while iterating on the frontend.
+const USE_MOCK = process.env.MOCK_ITINERARY === "true";
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const mockResponse = USE_MOCK
+  ? JSON.parse(fs.readFileSync(path.join(__dirname, "mock-response.json"), "utf-8"))
+  : null;
+
 const ai = getAI();
 
 app.use(morgan("dev"));
@@ -45,6 +58,7 @@ const geocode = async (address: string): Promise<[number, number]> => {
     `https://api.openrouteservice.org/geocode/search?${params.toString()}`,
   );
   const data = await response.json();
+  console.log('geocode data response:', data)
   const coordinates = data?.features?.[0]?.geometry?.coordinates;
   if (!coordinates) {
     throw new Error(`Could not geocode address: "${address}"`);
@@ -148,6 +162,11 @@ const itineraryResponseSchema = {
 };
 
 app.get("/", async (_req, res) => {
+  if (USE_MOCK) {
+    res.json(mockResponse);
+    return;
+  }
+
   const startingLocation = "750 Kearny St, San Francisco, CA 94108";
   const data = {
     startingLocation,

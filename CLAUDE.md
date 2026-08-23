@@ -10,6 +10,7 @@ An AI-assisted travel itinerary planner. Very early-stage / experimental: the us
 
 - `pnpm dev` — start the Vite frontend dev server (localhost:5173)
 - `pnpm server` — start the Express/Gemini backend with `tsx --watch` (localhost:3001), loading env vars from `.env.local` (`NODE_ENV=local` → `.env.local`)
+- `pnpm server:mock` — same, but with `MOCK_ITINERARY=true`: skips the real Gemini + OpenRouteService calls (both rate-limited on the free tier) and replays `server/mock-response.json`, a captured real response. Use this while iterating on the frontend so repeated testing doesn't burn quota.
 - `pnpm build` — type-check (`tsc -b`) then build the frontend with Vite
 - `pnpm lint` — run ESLint over the repo
 - `pnpm format` — run Prettier (write mode) over the repo

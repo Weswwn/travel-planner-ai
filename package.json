@@ -9,6 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "server": "NODE_ENV=local tsx --watch server/index.ts",
+    "server:mock": "NODE_ENV=local MOCK_ITINERARY=true tsx --watch server/index.ts",
     "format": "prettier --write ."
   },
   "dependencies": {
