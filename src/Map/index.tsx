@@ -1,24 +1,14 @@
-import { useMap, useMapsLibrary } from "@vis.gl/react-google-maps";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
+import { useMap } from "react-leaflet";
+import { latLngBounds, type LatLngExpression } from "leaflet";
 
-export const MapComponent = ({ directions }: { directions: any }) => {
+export const FitBounds = ({ positions }: { positions: LatLngExpression[] }) => {
   const map = useMap();
-  const routesLibrary = useMapsLibrary("routes");
-  const [directionsService, setDirectionsService] = useState<any>(null);
-  const [directionsRenderer, setDirectionsRenderer] = useState<any>(null);
 
   useEffect(() => {
-    if (!map || !routesLibrary) return;
-
-    setDirectionsService(new routesLibrary.DirectionsService());
-    setDirectionsRenderer(new routesLibrary.DirectionsRenderer());
-  }, [routesLibrary, map]);
-
-  useEffect(() => {
-    if (directionsRenderer && directions) {
-      directionsRenderer.setDirections(directions);
-    }
-  }, [directions]);
+    if (positions.length === 0) return;
+    map.fitBounds(latLngBounds(positions), { padding: [40, 40] });
+  }, [map, positions]);
 
   return null;
 };
